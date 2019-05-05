@@ -1,18 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PaymentContext.Domain.Entities
 {
     public class Subscription
     {
-        public DateTime CreateDate { get; set; }
-        public DateTime LastUpdateDate { get; set; }
-        public DateTime?  ExpireDate { get; set; }
-        public bool Active { get; set; }
+        private List<Payment> _payments;
 
-        public List<Payment> Paiment { get; set; }
+        public Subscription(DateTime? expireDate)
+        {
+            CreateDate = DateTime.Now;
+            LastUpdateDate = DateTime.Now;
+            ExpireDate = expireDate;
+            Active = true;
+            _payments = new List<Payment>();
+        }
+
+        public DateTime CreateDate { get; private set; }
+        public DateTime LastUpdateDate { get; private set; }
+        public DateTime? ExpireDate { get; private set; }
+        public bool Active { get; private set; }
+
+        public IReadOnlyCollection<Payment> Paiment { get; private set; }
+
+        public void AddPaiment(Payment payment)
+        {
+            _payments.Add(payment);
+        }
+
+        public void Activate()
+
+        {
+            Active = false;
+            LastUpdateDate = DateTime.Now;
+        }
+
+        public void Inactivate()
+
+        {
+            Active = false;
+            LastUpdateDate = DateTime.Now;
+        }
     }
 }

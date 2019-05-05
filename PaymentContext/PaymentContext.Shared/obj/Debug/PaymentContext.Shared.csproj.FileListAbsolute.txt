@@ -1,0 +1,6 @@
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\bin\Debug\PaymentContext.Shared.dll
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\bin\Debug\PaymentContext.Shared.pdb
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.csprojAssemblyReference.cache
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.csproj.CoreCompileInputs.cache
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.dll
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.pdb

@@ -1,0 +1,5 @@
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Domain\bin\Debug\PaymentContext.Domain.dll
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Domain\bin\Debug\PaymentContext.Domain.pdb
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Domain\obj\Debug\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Domain\obj\Debug\PaymentContext.Domain.dll
+C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Domain\obj\Debug\PaymentContext.Domain.pdb

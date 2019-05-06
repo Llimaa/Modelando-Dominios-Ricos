@@ -1,4 +1,5 @@
-﻿using PaymentContext.Shared.ValueObjects;
+﻿using Flunt.Validations;
+using PaymentContext.Shared.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +8,21 @@ using System.Threading.Tasks;
 
 namespace PaymentContext.Domain.ValueObjects
 {
-    public class Name: ValueObject
+    public class Name : ValueObject
     {
         public Name(string firstName, string lastName)
         {
             FirstName = firstName;
             LastName = lastName;
+
+            AddNotifications(new Contract()
+                .Requires()
+                .HasMinLen(firstName, 3, "Name.FirstName", "O nome deve conter no minimo 3 caractéres")
+                .HasMaxLen(firstName, 40, "Name.FirstName", "O nome deve conter no maximo 40 caractéres")
+
+                .HasMinLen(lastName, 3, "Name.LastName", "O sobre nome deve conter no minimo 3 caractéres")
+                .HasMaxLen(lastName, 40, "Name.LastName", "O sobre nome deve conter no maximo 40 caractéres")
+            );
         }
 
         public string FirstName { get; private set; }

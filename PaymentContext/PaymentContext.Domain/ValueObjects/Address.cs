@@ -1,4 +1,5 @@
-﻿using PaymentContext.Shared.ValueObjects;
+﻿using Flunt.Validations;
+using PaymentContext.Shared.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,12 @@ namespace PaymentContext.Domain.ValueObjects
             State = state;
             Country = country;
             ZipCode = zipCode;
+
+            AddNotifications(new Contract()
+                .Requires()
+                .HasMaxLen(street,40,"Adddress.Street", "O campo rua deve conter no maximo 40 Caractéres")
+                .HasMinLen(street,3,"Adddress.Street", "O campo rua deve conter no minimo 3 Caractéres")
+            );
         }
 
         public string Street { get; private set; }

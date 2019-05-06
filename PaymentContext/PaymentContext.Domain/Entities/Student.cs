@@ -1,11 +1,12 @@
-﻿using PaymentContext.Domain.ValueObjects;
+﻿using Flunt.Validations;
+using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace PaymentContext.Domain.Entities
 {
-    public class Student: Entity
+    public class Student : Entity
     {
         private IList<Subscription> _subscriptions;
         public Student(Name name, Document document, Email email)
@@ -14,6 +15,8 @@ namespace PaymentContext.Domain.Entities
             Document = document;
             Email = email;
             _subscriptions = new List<Subscription>();
+
+            AddNotifications(name, document, email);
         }
 
         public Name Name { get; private set; }
@@ -27,14 +30,16 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscriptio(Subscription subscription)
         {
-            //validar de acordo com minha regra de denogio.
-            foreach (var sub in Subscriptions)
+            var hasSubscriptionActive = false;
+            foreach (var sub in _subscriptions)
             {
-                sub.Activate();
+                if (sub.Active)
+                    hasSubscriptionActive = true;
             }
-            _subscriptions.Add(subscription);
-
-
+            AddNotifications(new Contract()
+                .Requires()
+                .IsFalse(hasSubscriptionActive, "Student.Subscription", "Você ja possue uma assinatura ativa")
+            );
         }
     }
 }

@@ -20,9 +20,11 @@ C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentConte
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\PaymentContext.Domain.dll
+C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\PaymentContext.Shared.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\PaymentContext.Domain.pdb
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\PaymentContext.Shared.pdb
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csprojAssemblyReference.cache
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csproj.CoreCompileInputs.cache
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csproj.CopyComplete

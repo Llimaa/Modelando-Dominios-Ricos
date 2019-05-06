@@ -6,7 +6,6 @@ C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\P
 C:\Dev\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.pdb
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\bin\Debug\PaymentContext.Shared.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\bin\Debug\PaymentContext.Shared.pdb
-C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.csprojAssemblyReference.cache
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.csproj.CoreCompileInputs.cache
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Shared\obj\Debug\PaymentContext.Shared.pdb

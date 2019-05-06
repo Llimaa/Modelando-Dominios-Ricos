@@ -1,9 +1,10 @@
-﻿using System;
+﻿using PaymentContext.Shared.Entities;
+using System;
 using System.Collections.Generic;
 
 namespace PaymentContext.Domain.Entities
 {
-    public class Subscription
+    public class Subscription: Entity
     {
         private List<Payment> _payments;
 

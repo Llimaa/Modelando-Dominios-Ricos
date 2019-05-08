@@ -17,11 +17,11 @@ namespace PaymentContext.Domain.ValueObjects
 
             AddNotifications(new Contract()
                 .Requires()
-                .HasMinLen(firstName, 3, "Name.FirstName", "O nome deve conter no minimo 3 caractéres")
-                .HasMaxLen(firstName, 40, "Name.FirstName", "O nome deve conter no maximo 40 caractéres")
+                .HasMinLen(FirstName, 3, "Name.FirstName", "O nome deve conter no minimo 3 caractéres")
+                .HasMaxLen(FirstName, 40, "Name.FirstName", "O nome deve conter no maximo 40 caractéres")
 
-                .HasMinLen(lastName, 3, "Name.LastName", "O sobre nome deve conter no minimo 3 caractéres")
-                .HasMaxLen(lastName, 40, "Name.LastName", "O sobre nome deve conter no maximo 40 caractéres")
+                .HasMinLen(LastName, 3, "Name.LastName", "O sobre nome deve conter no minimo 3 caractéres")
+                .HasMaxLen(LastName, 40, "Name.LastName", "O sobre nome deve conter no maximo 40 caractéres")
             );
         }
 

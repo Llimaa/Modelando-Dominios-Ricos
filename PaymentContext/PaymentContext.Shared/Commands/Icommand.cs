@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Flunt.Notifications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace PaymentContext.Shared.Commands
 {
     public interface Icommand
     {
+        void validade();
     }
 }

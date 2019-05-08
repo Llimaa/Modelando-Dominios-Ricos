@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89176582-F977-4478-9B5D-0F02A9433CC5}</ProjectGuid>
+    <ProjectGuid>{897346EA-4B61-40FA-A444-76F3AA645B1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PaymentContext.Test</RootNamespace>
@@ -52,16 +52,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Entities\StudentTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentTests.cs" />
+    <Compile Include="ValueObjects\DocumentTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PaymentContext.Domain\PaymentContext.Domain.csproj">
-      <Project>{8035f31e-d60b-4d29-9148-e77f60625d7c}</Project>
+      <Project>{8035F31E-D60B-4D29-9148-E77F60625D7C}</Project>
       <Name>PaymentContext.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\PaymentContext.Shared\PaymentContext.Shared.csproj">

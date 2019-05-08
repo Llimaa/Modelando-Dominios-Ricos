@@ -23,7 +23,7 @@ namespace PaymentContext.Domain.Entities
         public DateTime? ExpireDate { get; private set; }
         public bool Active { get; private set; }
 
-        public IReadOnlyCollection<Payment> Paiment { get; private set; }
+        public IReadOnlyCollection<Payment> Paiment { get { return _payments.ToArray(); } }
 
         public void AddPaiment(Payment payment)
         {

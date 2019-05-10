@@ -58,6 +58,7 @@
     <Compile Include="Handlers\SubscriptionHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IStudentRepository.cs" />
+    <Compile Include="Services\IEmailSevices.cs" />
     <Compile Include="ValueObjects\Address.cs" />
     <Compile Include="ValueObjects\Document.cs" />
     <Compile Include="ValueObjects\Email.cs" />

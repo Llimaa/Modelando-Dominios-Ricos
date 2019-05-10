@@ -9,7 +9,6 @@ namespace PaymentContext.Domain.Entities
             (
                 string barcode,
                 string boletoNumber,
-                string number,
                 DateTime paidDate,
                 DateTime expireDate,
                 decimal total,
@@ -19,7 +18,6 @@ namespace PaymentContext.Domain.Entities
                 Address address,
                 Email email
             ) : base(
-                number,
                 paidDate,
                 expireDate,
                 total,

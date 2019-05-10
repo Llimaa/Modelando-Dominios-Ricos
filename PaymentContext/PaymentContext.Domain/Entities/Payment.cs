@@ -9,7 +9,6 @@ namespace PaymentContext.Domain.Entities
     {
         public Payment
         (
-            string number,
             DateTime paidDate,
             DateTime expireDate,
             decimal total,

@@ -1,3 +1,5 @@
+C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csprojAssemblyReference.cache
+C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csproj.CoreCompileInputs.cache
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -108,8 +110,6 @@ C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentConte
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\PaymentContext.Shared.pdb
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csprojAssemblyReference.cache
-C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csproj.CoreCompileInputs.cache
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.csproj.CopyComplete
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.dll
 C:\Users\limaa\source\repos\Modelando-Dominios-Ricos\PaymentContext\PaymentContext.Test\obj\Debug\PaymentContext.Test.pdb

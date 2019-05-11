@@ -21,5 +21,11 @@ namespace PaymentContext.Test.Commands
 
             Assert.AreEqual(false, command.Valid);
         }
+
+        [TestMethod]
+        public void ShowlReturnErrorWhenDocumentExists()
+        {
+            var command = new CreateBoletoSubscriptionCommnad();
+        }
     }
 }

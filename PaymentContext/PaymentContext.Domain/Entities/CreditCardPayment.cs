@@ -20,7 +20,6 @@ namespace PaymentContext.Domain.Entities
                 Address address,
                 Email email
             ) : base(
-                number,
                 paidDate,
                 expireDate,
                 total,

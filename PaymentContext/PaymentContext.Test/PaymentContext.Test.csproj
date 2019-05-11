@@ -54,6 +54,9 @@
   <ItemGroup>
     <Compile Include="Commands\CreateBoletoSubstriptionCommandTests.cs" />
     <Compile Include="Entities\StudentTest.cs" />
+    <Compile Include="Handles\SubscriptionHandlerTest.cs" />
+    <Compile Include="Mocks\FakeEmailService.cs" />
+    <Compile Include="Mocks\FakeStudentRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValueObjects\DocumentTest.cs" />
   </ItemGroup>

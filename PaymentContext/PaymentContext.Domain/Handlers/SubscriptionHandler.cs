@@ -31,7 +31,7 @@ namespace PaymentContext.Domain.Handlers
         {
             //Fail Fast Validator.
             command.validate();
-            if (command.Valid)
+            if (command.Invalid)
             {
                 return new CommandResult(false, "Não foi possivel realizar sua assinatura!");
             }
@@ -75,6 +75,10 @@ namespace PaymentContext.Domain.Handlers
 
             //Agrupar as validacoes.
             AddNotifications(name, document, address, student, subscription, payment);
+
+            //Checar as NOtificacoes.
+            if (Valid)
+                return new CommandResult(false, "Não foi possivel realizar sua assinatura");
 
             //Salvar as Informacoes.
             _studentRepository.CreateSubscription(student);

@@ -58,6 +58,7 @@
     <Compile Include="Mocks\FakeEmailService.cs" />
     <Compile Include="Mocks\FakeStudentRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\StudentQueriesTest.cs" />
     <Compile Include="ValueObjects\DocumentTest.cs" />
   </ItemGroup>
   <ItemGroup>
